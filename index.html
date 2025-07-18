@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Options: Classic vs Studio Experience</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-shadow { box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .feature-card { transition: transform 0.3s ease; }
+        .feature-card:hover { transform: translateY(-5px); }
+        .check-icon { color: #10b981; }
+        .star-icon { color: #f59e0b; }
+        .winner-badge { background: linear-gradient(45deg, #10b981, #059669); }
+        .comparison-row:nth-child(even) { background-color: #f8fafc; }
+        .price-highlight { background: linear-gradient(45deg, #3b82f6, #1d4ed8); }
+        @media print {
+            body { font-size: 12px; }
+            .no-print { display: none !important; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Your Website Experience Options</h1>
+            <p class="text-xl opacity-90 max-w-3xl mx-auto">Compare how your website will look, perform, and impact your business with each platform choice</p>
+        </div>
+    </header>
+
+    <div class="max-w-6xl mx-auto px-6 py-8">
+        <!-- Quick Overview Cards -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white rounded-lg card-shadow p-8 feature-card">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                        <i class="fas fa-mouse-pointer text-blue-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">Wix Classic Core</h3>
+                        <p class="text-gray-600">Traditional & Familiar</p>
+                    </div>
+                </div>
+                <div class="price-highlight text-white px-4 py-2 rounded-lg inline-block mb-4">
+                    <span class="text-2xl font-bold">$29/month</span>
+                    <span class="text-sm opacity-90">($17 annually)</span>
+                </div>
+                <p class="text-gray-600 mb-4">Perfect for businesses wanting a professional website that works well across devices with proven, reliable technology.</p>
+                <div class="space-y-2">
+                    <div class="flex items-center">
+                        <i class="fas fa-check check-icon mr-3"></i>
+                        <span>Proven website performance</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check check-icon mr-3"></i>
+                        <span>Mobile-friendly design</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check check-icon mr-3"></i>
+                        <span>Reliable user experience</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg card-shadow p-8 feature-card border-2 border-green-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i class="fas fa-rocket text-green-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">Wix Studio Standard</h3>
+                        <p class="text-green-600 font-semibold">Advanced & Modern</p>
+                    </div>
+                </div>
+                <div class="winner-badge text-white px-4 py-2 rounded-lg inline-block mb-4">
+                    <span class="text-2xl font-bold">$27/month</span>
+                    <span class="text-sm opacity-90">($20 annually)</span>
+                    <i class="fas fa-crown ml-2"></i>
+                </div>
+                <p class="text-gray-600 mb-4">Modern platform delivering superior mobile experience and professional appearance that adapts perfectly to any device.</p>
+                <div class="space-y-2">
+                    <div class="flex items-center">
+                        <i class="fas fa-star star-icon mr-3"></i>
+                        <span>Superior mobile experience</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-star star-icon mr-3"></i>
+                        <span>Advanced professional design</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-star star-icon mr-3"></i>
+                        <span>Future-proof technology</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What Your Visitors Will Experience -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">What Your Visitors Will Experience</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <h3 class="text-xl font-semibold flex items-center">
+                        <i class="fas fa-mobile-alt text-blue-600 mr-3"></i>
+                        Mobile Experience
+                    </h3>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h4 class="font-semibold mb-2">Classic Core</h4>
+                        <p class="text-gray-600 mb-4">Your website will look good on mobile devices with responsive adjustments. Mobile visitors will have a solid, functional experience.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-thumbs-up mr-2"></i>
+                            <span>Good mobile experience</span>
+                        </div>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+                        <h4 class="font-semibold mb-2">Studio Standard</h4>
+                        <p class="text-gray-600 mb-4">Your website will deliver a premium mobile experience that looks and feels like a native app. Content perfectly adapts to any screen size.</p>
+                        <div class="flex items-center text-sm text-green-600">
+                            <i class="fas fa-crown mr-2"></i>
+                            <span>Premium mobile experience</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-xl font-semibold flex items-center">
+                        <i class="fas fa-tachometer-alt text-purple-600 mr-3"></i>
+                        Loading Speed & Performance
+                    </h3>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h4 class="font-semibold mb-2">Classic Core</h4>
+                        <p class="text-gray-600 mb-4">Fast loading times and reliable performance that keeps visitors engaged. Your site will load quickly on most devices.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-clock mr-2"></i>
+                            <span>Fast & reliable</span>
+                        </div>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+                        <h4 class="font-semibold mb-2">Studio Standard</h4>
+                        <p class="text-gray-600 mb-4">Optimized performance with modern technology that delivers lightning-fast loading and smooth interactions across all devices.</p>
+                        <div class="flex items-center text-sm text-green-600">
+                            <i class="fas fa-bolt mr-2"></i>
+                            <span>Lightning fast & optimized</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Business Impact Comparison -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">Business Impact Comparison</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="px-6 py-4 font-semibold text-gray-700">Business Factor</th>
+                            <th class="px-6 py-4 font-semibold text-gray-700">Classic Core</th>
+                            <th class="px-6 py-4 font-semibold text-gray-700">Studio Standard</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="comparison-row">
+                            <td class="px-6 py-4 font-medium">Professional Appearance</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check check-icon mr-2"></i>
+                                    <span>Professional & clean design</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-crown star-icon mr-2"></i>
+                                    <span>Premium, modern appearance</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="comparison-row">
+                            <td class="px-6 py-4 font-medium">Customer Trust</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check check-icon mr-2"></i>
+                                    <span>Builds solid credibility</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-crown star-icon mr-2"></i>
+                                    <span>Premium brand perception</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="comparison-row">
+                            <td class="px-6 py-4 font-medium">User Engagement</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check check-icon mr-2"></i>
+                                    <span>Good visitor retention</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-crown star-icon mr-2"></i>
+                                    <span>Higher engagement rates</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="comparison-row">
+                            <td class="px-6 py-4 font-medium">Mobile Conversion</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check check-icon mr-2"></i>
+                                    <span>Solid mobile performance</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-crown star-icon mr-2"></i>
+                                    <span>Optimized for mobile sales</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="comparison-row">
+                            <td class="px-6 py-4 font-medium">Future-Proofing</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check check-icon mr-2"></i>
+                                    <span>Reliable long-term solution</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-crown star-icon mr-2"></i>
+                                    <span>Latest technology standards</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Feature Comparison -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">What You Get With Each Option</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <h3 class="text-xl font-semibold text-blue-600">Wix Classic Core - $29/month</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>50GB storage space</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>Custom domain included</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>Online payment processing</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>No Wix ads on your site</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>Basic eCommerce features</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>Site analytics</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>SSL security certificate</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check check-icon mr-3"></i>
+                            <span>Mobile-optimized design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h3 class="text-xl font-semibold text-green-600">Wix Studio Standard - $27/month</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>50GB storage space</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Custom domain included</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Advanced payment processing</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>No Wix ads on your site</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Full eCommerce suite</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Advanced analytics</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Premium SSL security</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Fully responsive design</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Advanced SEO tools</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-crown star-icon mr-3"></i>
+                            <span>Professional design system</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email Add-On Costs -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">Professional Email Add-On</h2>
+            <div class="bg-blue-50 p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-envelope text-blue-600 text-2xl mr-4"></i>
+                    <div>
+                        <h3 class="text-xl font-semibold">Google Workspace Email</h3>
+                        <p class="text-gray-600">Professional email matching your domain (yourname@yourbusiness.com)</p>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-2">Regular Price</h4>
+                        <p class="text-2xl font-bold text-blue-600">$6/month</p>
+                        <p class="text-sm text-gray-600">per email address</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-2">First Year Special</h4>
+                        <p class="text-2xl font-bold text-green-600">$3/month</p>
+                        <p class="text-sm text-gray-600">50% discount often available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommendation -->
+        <div class="bg-gradient-to-r from-green-500 to-blue-600 text-white rounded-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-center">Our Recommendation</h2>
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="bg-white bg-opacity-20 rounded-lg p-6 mb-6">
+                    <h3 class="text-2xl font-bold mb-4">Wix Studio Standard</h3>
+                    <p class="text-lg mb-4">For just $2 less per month, you get significantly more value and a superior user experience that will benefit your business long-term.</p>
+                    <div class="grid md:grid-cols-3 gap-4 text-sm">
+                        <div class="bg-white bg-opacity-20 rounded p-3">
+                            <i class="fas fa-mobile-alt text-xl mb-2"></i>
+                            <p>Superior Mobile Experience</p>
+                        </div>
+                        <div class="bg-white bg-opacity-20 rounded p-3">
+                            <i class="fas fa-crown text-xl mb-2"></i>
+                            <p>More Professional Appearance</p>
+                        </div>
+                        <div class="bg-white bg-opacity-20 rounded p-3">
+                            <i class="fas fa-rocket text-xl mb-2"></i>
+                            <p>Better Future-Proofing</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-lg opacity-90">Your website visitors will notice the difference, and your business will benefit from the improved user experience and modern technology.</p>
+            </div>
+        </div>
+
+        <!-- Total Cost Summary -->
+        <div class="bg-white rounded-lg card-shadow p-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">Total Monthly Investment</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Classic Core Complete</h3>
+                    <div class="text-3xl font-bold text-blue-600 mb-2">$35/month</div>
+                    <p class="text-gray-600 mb-4">Website ($29) + Email ($6)</p>
+                    <div class="text-sm text-gray-500">
+                        <p>✓ Professional website</p>
+                        <p>✓ Business email</p>
+                        <p>✓ Reliable performance</p>
+                    </div>
+                </div>
+                <div class="text-center p-6 bg-green-50 rounded-lg border-2 border-green-200">
+                    <h3 class="text-xl font-semibold mb-4">Studio Standard Complete</h3>
+                    <div class="text-3xl font-bold text-green-600 mb-2">$33/month</div>
+                    <p class="text-gray-600 mb-4">Website ($27) + Email ($6)</p>
+                    <div class="text-sm text-gray-500">
+                        <p>✓ Premium website experience</p>
+                        <p>✓ Business email</p>
+                        <p>✓ Superior mobile performance</p>
+                        <p>✓ Advanced features</p>
+                    </div>
+                    <div class="mt-4 bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                        BEST VALUE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-gray-400">Website Platform Comparison • 2025 Pricing • All prices shown are current as of January 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
